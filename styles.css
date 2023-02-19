@@ -6,14 +6,20 @@ html {
     color: #323232;
 }
 
-body{
+body {
     background-color: #785b77;
     margin: auto;
 
 }
-div{text-align: center;}
 
-p{color: #98c2c0; font-size: 1cm;}
+div {
+    text-align: center;
+}
+
+p {
+    color: #98c2c0;
+    font-size: 1cm;
+}
 
 #home {
     display: flex;
@@ -22,36 +28,52 @@ p{color: #98c2c0; font-size: 1cm;}
     height: 95vh;
 }
 
-.linklist{
+#about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+
+#link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+
+.linklist {
     margin: 50px;
     text-decoration: none;
-    color: #98c2c0; 
+    color: #98c2c0;
     font-size: 25px;
     font-weight: 500;
 }
-.links{
+
+.links {
     font-size: 50px;
-    color: #98c2c0;  
-    display:inline;
+    color: #98c2c0;
+    display: inline;
     padding: 0 15px;
 }
 
-.text{
+.text {
     text-align: center;
     font-size: 72px;
     margin-bottom: 0px;
     font-weight: 72;
-    color: #98c2c0;  
+    color: #98c2c0;
     padding-left: 10px;
 }
 
-.section{
+.section {
     text-align: center;
     font-size: 72px;
     font-weight: 72;
-    color: #98c2c0;  
+    color: #98c2c0;
     padding-left: 10px;
 }
+
 .nav-bar {
     padding-left: auto;
     margin-top: 10px;
@@ -68,7 +90,7 @@ p{color: #98c2c0; font-size: 1cm;}
 
 .nav-link {
     text-decoration: none;
-    color: #98c2c0; 
+    color: #98c2c0;
     font-size: 25px;
     font-weight: 500;
 }
